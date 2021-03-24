@@ -34,3 +34,4 @@ docker exec -it jamulus-pi start #To start Jamulus Server. You can add ' &' at t
 docker exec -it jamulus-pi stop #To stop Jamulus Server.
 docker exec -it jamulus-pi restart #To restart Jamulus Server, also can be used with ' &'.
 docker exec -it jamulus-pi update #To update/install Jamulus Server.
+```
