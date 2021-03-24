@@ -2,10 +2,10 @@ version: '3.3'
 
 services:
   jamulus-pi:
-    image: cimlah/jamulus-pi:latest
+    image: jamulus-pi
     restart: unless-stopped
-    hostname: jamulus-pi1
-    container_name: jamulus-pi1
+    hostname: jamulus-pi
+    container_name: jamulus-pi
     ports:
       - "22124:22124/udp"
     stdin_open: true
