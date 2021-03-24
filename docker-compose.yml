@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
   jamulus-pi:
-    image: jamulus-pi
+    image: cimlah/jamulus-pi
     restart: unless-stopped
     hostname: jamulus-pi
     container_name: jamulus-pi
