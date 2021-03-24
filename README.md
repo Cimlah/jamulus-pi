@@ -1,5 +1,6 @@
 # jamulus-pi
-Docker image used for running Jamulus Server on your Raspberry Pi!
+Run Jamulus Server in Docker on your Raspberry Pi!
+Source code (and *docker-compose.yml*): https://github.com/Cimlah/jamulus-pi
 
 ## Usage after building the image
 It is good to use *docker-compose.yml* file to start the container.
